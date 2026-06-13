@@ -1,5 +1,5 @@
 {
-  "$schema": "https://json-schema.org/draft/07/schema",
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://openaudit.dev/schemas/audit_event_v0.1.json",
   "title": "OpenAudit Event",
   "description": "Audit event for AI agent actions. Approval-First, Verifiable Evidence, Offline-First, Risk-Native.",
