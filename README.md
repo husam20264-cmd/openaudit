@@ -17,6 +17,16 @@ openaudit verify audit.json --evidence-dir ./proofs
 pip install openaudit
 ```
 
+## Community Validators
+
+| Language | Repository | Maintainer |
+|----------|------------|------------|
+| TypeScript | validators/typescript/ | (open for contribution) |
+| Go | validators/go/ | (open for contribution) |
+| Rust | validators/rust/ | (open for contribution) |
+
+To add a validator, submit a PR adding a row above and link your implementation.
+
 ## License
 
 MIT

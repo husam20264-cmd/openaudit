@@ -1,0 +1,17 @@
+name: Community Validators
+
+on:
+  pull_request:
+    paths:
+      - "validators/**"
+      - ".github/workflows/community-validators.yml"
+
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: List community validators
+        run: |
+          echo "Community validators:"
+          find validators -maxdepth 2 -type f 2>/dev/null || true
