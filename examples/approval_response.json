@@ -1,0 +1,18 @@
+{
+  "event_id": "550e8400-e29b-41d4-a716-446655440003",
+  "trace_id": "trace-124",
+  "parent_event_id": "550e8400-e29b-41d4-a716-446655440002",
+  "root_event_id": "550e8400-e29b-41d4-a716-446655440002",
+  "timestamp": "2025-01-15T11:05:00Z",
+  "agent_id": "financial_agent",
+  "session_id": "user_456_session_1",
+  "action_type": "approval_response",
+  "action_details": { "decision": "approved", "comment": "Approved by manager" },
+  "risk_score": 0.7,
+  "risk_level": "high",
+  "approval_state": "approved",
+  "approval_reason": "Manager approved",
+  "approval_actor": "human:manager@example.com",
+  "execution_status": "pending",
+  "evidence_hash": "a3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

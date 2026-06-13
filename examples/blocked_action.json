@@ -1,0 +1,18 @@
+{
+  "event_id": "550e8400-e29b-41d4-a716-446655440001",
+  "trace_id": "trace-123",
+  "parent_event_id": "550e8400-e29b-41d4-a716-446655440000",
+  "root_event_id": "550e8400-e29b-41d4-a716-446655440000",
+  "timestamp": "2025-01-15T10:30:05Z",
+  "agent_id": "code_assistant_v2",
+  "session_id": "user_123_session_5",
+  "action_type": "blocked_action",
+  "action_details": { "tool": "delete_file", "path": "/prod/config.yaml" },
+  "risk_score": 0.95,
+  "risk_level": "critical",
+  "approval_state": "blocked",
+  "approval_reason": "Deletion in production requires human approval",
+  "approval_actor": "policy_engine",
+  "execution_status": "skipped",
+  "evidence_hash": "d3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}

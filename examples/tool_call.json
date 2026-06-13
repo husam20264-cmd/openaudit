@@ -1,0 +1,18 @@
+{
+  "event_id": "550e8400-e29b-41d4-a716-446655440000",
+  "trace_id": "trace-123",
+  "parent_event_id": null,
+  "root_event_id": "550e8400-e29b-41d4-a716-446655440000",
+  "timestamp": "2025-01-15T10:30:00Z",
+  "agent_id": "code_assistant_v2",
+  "session_id": "user_123_session_5",
+  "action_type": "tool_call",
+  "action_details": { "tool": "read_file", "path": "/tmp/test.txt" },
+  "risk_score": 0.15,
+  "risk_level": "low",
+  "approval_state": "approved",
+  "approval_reason": "Read operation auto-approved",
+  "approval_actor": "system",
+  "execution_status": "success",
+  "evidence_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+}
