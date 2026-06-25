@@ -1,7 +1,37 @@
 # OpenAudit
 
-Open standard for AI agent audit logs.  
-**Approval-First · Verifiable Evidence · Offline-First · Risk-Native**
+Open standard and CLI for verifiable, approval-first AI agent audit logs.
+
+It helps teams record what an AI agent attempted, what was approved, what evidence was produced, and how risk was assessed — in a format that can be validated offline and verified independently.
+
+## Quick example
+
+Install OpenAudit:
+
+```bash
+pip install openaudit
+```
+
+Validate an audit log:
+
+```bash
+openaudit validate audit.json
+```
+
+Verify the audit log against local evidence:
+
+```bash
+openaudit verify audit.json --evidence-dir ./proofs
+```
+
+Expected output:
+
+```
+✓ audit.json is valid
+✓ evidence files verified
+✓ risk assessment present
+✓ approval decision recorded
+```
 
 ## CLI
 
